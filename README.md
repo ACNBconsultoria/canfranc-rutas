@@ -11,8 +11,15 @@ Aplicación web para explorar rutas del Valle de Canfranc mediante fichas detall
 
 ## Publicación
 
-La aplicación se publica en GitHub Pages directamente desde la rama `main` y la carpeta raíz del repositorio.
+La aplicación se publica directamente desde la rama `main` mediante GitHub Pages.
 
-Web: https://acnbconsultoria.github.io/canfranc-rutas/
+## PWA y navegación sin cobertura
+
+- Instalable en Android, iPhone y ordenadores compatibles.
+- El botón `GPS · Offline` permite guardar la aplicación y los 20 trazados en el dispositivo.
+- La navegación usa GPS de alta precisión, calcula la distancia al camino y avisa por vibración tras tres posiciones consecutivas fuera del trazado.
+- Durante la navegación solicita mantener la pantalla encendida. El sistema puede rechazarlo por ahorro de batería o falta de compatibilidad.
+- Antes de una salida hay que preparar el contenido con conexión y comprobarlo en modo avión.
+- Los mapas base y el relieve 3D actuales proceden de servicios externos y no forman parte todavía del paquete offline. Los trazados, perfiles y estadísticas sí quedan guardados.
 
 La información de las rutas es orientativa y no sustituye cartografía oficial, partes meteorológicos, experiencia, material adecuado ni criterio sobre el terreno.
