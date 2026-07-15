@@ -11,7 +11,8 @@ Aplicación web para explorar rutas del Valle de Canfranc mediante fichas detall
 
 ## Publicación
 
-La aplicación se publica automáticamente en GitHub Pages mediante el flujo incluido en `.github/workflows/pages.yml`.
+La aplicación se publica en GitHub Pages directamente desde la rama `main` y la carpeta raíz del repositorio.
+
+Web: https://acnbconsultoria.github.io/canfranc-rutas/
 
 La información de las rutas es orientativa y no sustituye cartografía oficial, partes meteorológicos, experiencia, material adecuado ni criterio sobre el terreno.
-
