@@ -1,0 +1,16 @@
+{
+  "route_name": "Canfranc Estación a Canfranc Pueblo",
+  "source_file": "canfranc-estacion-pueblo.gpx",
+  "processed_at": "2026-07-14",
+  "track_points": 392,
+  "calculated_distance_km": 7.335,
+  "minimum_elevation_m": 1048.9,
+  "maximum_elevation_m": 1175.5,
+  "calculated_gain_smoothed_m": 206,
+  "calculated_loss_smoothed_m": 207,
+  "start_gap_to_declared_m": 411,
+  "notes": [
+    "Desnivel calculado con elevación suavizada y umbral de 2 m.",
+    "La aplicación es complementaria y no sustituye navegación offline."
+  ]
+}

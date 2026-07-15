@@ -1,0 +1,32 @@
+{
+  "route_name": "Pico La Moleta 2.572 m. Circular por el Carretón-Ibón de Iserías-Valle de Izas. Canfranc",
+  "expedition_date": "2026-07-26",
+  "track_points": 3155,
+  "calculated_distance_km": 17.678,
+  "minimum_elevation_m": 1159.9,
+  "maximum_elevation_m": 2580.0,
+  "calculated_gain_smoothed_m": 1575,
+  "calculated_loss_smoothed_m": 1559,
+  "wikiloc_declared_distance_km": 17.678,
+  "wikiloc_declared_gain_m": 1530,
+  "wikiloc_declared_loss_m": 1530,
+  "route_type": "circular",
+  "difficulty": "Muy difícil",
+  "wikiloc_id": 149846174,
+  "wikiloc_url": "https://es.wikiloc.com/rutas-senderismo/pico-la-moleta-2-572-m-circular-por-el-carreton-ibon-de-iserias-valle-de-izas-canfranc-149846174",
+  "start": {
+    "lat": 42.751457,
+    "lon": -0.514526,
+    "elevation_m": 1188.3
+  },
+  "end": {
+    "lat": 42.753252,
+    "lon": -0.514329,
+    "elevation_m": 1206.3
+  },
+  "notes": [
+    "La distancia calculada sigue los puntos del KML.",
+    "El desnivel calculado usa elevación suavizada y umbral de 2 m.",
+    "La aplicación es complementaria y no sustituye navegación offline."
+  ]
+}

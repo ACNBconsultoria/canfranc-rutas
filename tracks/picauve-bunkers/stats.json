@@ -1,0 +1,16 @@
+{
+  "route_name": "Mirador y búnkeres de Picauvé",
+  "source_file": "picauve-bunkers.gpx",
+  "processed_at": "2026-07-13",
+  "track_points": 147,
+  "calculated_distance_km": 5.834,
+  "minimum_elevation_m": 1197.3,
+  "maximum_elevation_m": 1465.4,
+  "calculated_gain_smoothed_m": 271,
+  "calculated_loss_smoothed_m": 292,
+  "start_gap_to_declared_m": 0,
+  "notes": [
+    "Desnivel calculado con elevación suavizada y umbral de 2 m.",
+    "La aplicación es complementaria y no sustituye navegación offline."
+  ]
+}

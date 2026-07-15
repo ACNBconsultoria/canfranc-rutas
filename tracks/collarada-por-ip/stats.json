@@ -1,0 +1,16 @@
+{
+  "route_name": "Collarada por el Valle de Ip",
+  "source_file": "collarada-por-ip.gpx",
+  "processed_at": "2026-07-14",
+  "track_points": 247,
+  "calculated_distance_km": 16.672,
+  "minimum_elevation_m": 1066.9,
+  "maximum_elevation_m": 2843.9,
+  "calculated_gain_smoothed_m": 1775,
+  "calculated_loss_smoothed_m": 1758,
+  "start_gap_to_declared_m": 19,
+  "notes": [
+    "Desnivel calculado con elevación suavizada y umbral de 2 m.",
+    "La aplicación es complementaria y no sustituye navegación offline."
+  ]
+}

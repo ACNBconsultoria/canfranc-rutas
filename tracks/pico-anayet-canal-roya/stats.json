@@ -1,0 +1,16 @@
+{
+  "route_name": "Pico Anayet por Canal Roya",
+  "source_file": "pico-anayet-canal-roya.gpx",
+  "processed_at": "2026-07-14",
+  "track_points": 234,
+  "calculated_distance_km": 17.776,
+  "minimum_elevation_m": 1366.9,
+  "maximum_elevation_m": 2544.2,
+  "calculated_gain_smoothed_m": 1177,
+  "calculated_loss_smoothed_m": 1177,
+  "start_gap_to_declared_m": 1564,
+  "notes": [
+    "Desnivel calculado con elevación suavizada y umbral de 2 m.",
+    "La aplicación es complementaria y no sustituye navegación offline."
+  ]
+}

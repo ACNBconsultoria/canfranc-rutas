@@ -1,0 +1,16 @@
+{
+  "route_name": "Ibón de Estanés desde Sansanet",
+  "source_file": "ibon-estanes-sansanet.gpx",
+  "processed_at": "2026-07-13",
+  "track_points": 138,
+  "calculated_distance_km": 8.818,
+  "minimum_elevation_m": 1308.1,
+  "maximum_elevation_m": 1784.1,
+  "calculated_gain_smoothed_m": 493,
+  "calculated_loss_smoothed_m": 491,
+  "start_gap_to_declared_m": 0,
+  "notes": [
+    "Desnivel calculado con elevación suavizada y umbral de 2 m.",
+    "La aplicación es complementaria y no sustituye navegación offline."
+  ]
+}

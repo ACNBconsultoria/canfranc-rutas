@@ -1,0 +1,16 @@
+{
+  "route_name": "Ibones de Astún: Truchas y Escalar",
+  "source_file": "lagos-astun.gpx",
+  "processed_at": "2026-07-14",
+  "track_points": 162,
+  "calculated_distance_km": 7.352,
+  "minimum_elevation_m": 1718.7,
+  "maximum_elevation_m": 2137.8,
+  "calculated_gain_smoothed_m": 423,
+  "calculated_loss_smoothed_m": 423,
+  "start_gap_to_declared_m": 1372,
+  "notes": [
+    "Desnivel calculado con elevación suavizada y umbral de 2 m.",
+    "La aplicación es complementaria y no sustituye navegación offline."
+  ]
+}

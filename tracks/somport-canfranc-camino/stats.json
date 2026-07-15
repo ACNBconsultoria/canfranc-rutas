@@ -1,0 +1,16 @@
+{
+  "route_name": "Somport a Canfranc Estación por el Camino de Santiago",
+  "source_file": "somport-canfranc-camino.gpx",
+  "processed_at": "2026-07-14",
+  "track_points": 349,
+  "calculated_distance_km": 7.302,
+  "minimum_elevation_m": 1200.2,
+  "maximum_elevation_m": 1632,
+  "calculated_gain_smoothed_m": 36,
+  "calculated_loss_smoothed_m": 467,
+  "start_gap_to_declared_m": 112,
+  "notes": [
+    "Desnivel calculado con elevación suavizada y umbral de 2 m.",
+    "La aplicación es complementaria y no sustituye navegación offline."
+  ]
+}

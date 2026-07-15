@@ -1,0 +1,16 @@
+{
+  "route_name": "Circular al Ibón de Ip",
+  "source_file": "ibon-ip-circular.gpx",
+  "processed_at": "2026-07-13",
+  "track_points": 255,
+  "calculated_distance_km": 14.789,
+  "minimum_elevation_m": 1057.5,
+  "maximum_elevation_m": 2146.3,
+  "calculated_gain_smoothed_m": 1096,
+  "calculated_loss_smoothed_m": 1089,
+  "start_gap_to_declared_m": 0,
+  "notes": [
+    "Desnivel calculado con elevación suavizada y umbral de 2 m.",
+    "La aplicación es complementaria y no sustituye navegación offline."
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "route_name": "Canal Roya hasta la Rinconada",
+  "source_file": "canal-roya-rinconada.gpx",
+  "processed_at": "2026-07-14",
+  "track_points": 228,
+  "calculated_distance_km": 13.698,
+  "minimum_elevation_m": 1361.4,
+  "maximum_elevation_m": 1862.3,
+  "calculated_gain_smoothed_m": 501,
+  "calculated_loss_smoothed_m": 488,
+  "start_gap_to_declared_m": 1597,
+  "notes": [
+    "Desnivel calculado con elevación suavizada y umbral de 2 m.",
+    "La aplicación es complementaria y no sustituye navegación offline."
+  ]
+}

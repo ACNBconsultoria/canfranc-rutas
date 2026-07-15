@@ -1,0 +1,16 @@
+{
+  "route_name": "Paseos del monte protector y Arboretum",
+  "source_file": "paseo-ayerbe-arboretum.gpx",
+  "processed_at": "2026-07-14",
+  "track_points": 266,
+  "calculated_distance_km": 2.809,
+  "minimum_elevation_m": 1160.9,
+  "maximum_elevation_m": 1216.9,
+  "calculated_gain_smoothed_m": 55,
+  "calculated_loss_smoothed_m": 51,
+  "start_gap_to_declared_m": 141,
+  "notes": [
+    "Desnivel calculado con elevación suavizada y umbral de 2 m.",
+    "La aplicación es complementaria y no sustituye navegación offline."
+  ]
+}

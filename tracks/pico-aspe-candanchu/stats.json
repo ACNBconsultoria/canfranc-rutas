@@ -1,0 +1,16 @@
+{
+  "route_name": "Pico Aspe desde Candanchú",
+  "source_file": "pico-aspe-candanchu.gpx",
+  "processed_at": "2026-07-14",
+  "track_points": 191,
+  "calculated_distance_km": 13.125,
+  "minimum_elevation_m": 1586.1,
+  "maximum_elevation_m": 2605.2,
+  "calculated_gain_smoothed_m": 1049,
+  "calculated_loss_smoothed_m": 1034,
+  "start_gap_to_declared_m": 754,
+  "notes": [
+    "Desnivel calculado con elevación suavizada y umbral de 2 m.",
+    "La aplicación es complementaria y no sustituye navegación offline."
+  ]
+}

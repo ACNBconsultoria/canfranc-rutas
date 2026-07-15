@@ -1,0 +1,16 @@
+{
+  "route_name": "La Raca desde Astún",
+  "source_file": "la-raca-astun.gpx",
+  "processed_at": "2026-07-14",
+  "track_points": 204,
+  "calculated_distance_km": 13.522,
+  "minimum_elevation_m": 1704.4,
+  "maximum_elevation_m": 2276.2,
+  "calculated_gain_smoothed_m": 556,
+  "calculated_loss_smoothed_m": 570,
+  "start_gap_to_declared_m": 42,
+  "notes": [
+    "Desnivel calculado con elevación suavizada y umbral de 2 m.",
+    "La aplicación es complementaria y no sustituye navegación offline."
+  ]
+}

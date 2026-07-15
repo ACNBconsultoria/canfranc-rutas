@@ -1,0 +1,16 @@
+{
+  "route_name": "Cola de Caballo y Fuente del Centenario",
+  "source_file": "cola-caballo-centenario.gpx",
+  "processed_at": "2026-07-13",
+  "track_points": 332,
+  "calculated_distance_km": 12.034,
+  "minimum_elevation_m": 1194.4,
+  "maximum_elevation_m": 1794.3,
+  "calculated_gain_smoothed_m": 597,
+  "calculated_loss_smoothed_m": 599,
+  "start_gap_to_declared_m": 0,
+  "notes": [
+    "Desnivel calculado con elevación suavizada y umbral de 2 m.",
+    "La aplicación es complementaria y no sustituye navegación offline."
+  ]
+}

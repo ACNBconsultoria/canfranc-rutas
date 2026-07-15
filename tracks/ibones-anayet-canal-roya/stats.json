@@ -1,0 +1,16 @@
+{
+  "route_name": "Ibones de Anayet por Canal Roya",
+  "source_file": "ibones-anayet-canal-roya.gpx",
+  "processed_at": "2026-07-14",
+  "track_points": 278,
+  "calculated_distance_km": 19.473,
+  "minimum_elevation_m": 1367.7,
+  "maximum_elevation_m": 2234.2,
+  "calculated_gain_smoothed_m": 861,
+  "calculated_loss_smoothed_m": 865,
+  "start_gap_to_declared_m": 840,
+  "notes": [
+    "Desnivel calculado con elevación suavizada y umbral de 2 m.",
+    "La aplicación es complementaria y no sustituye navegación offline."
+  ]
+}

@@ -1,0 +1,77 @@
+[
+  {
+    "id": "inicio-canfranc",
+    "name": "Inicio — Canfranc Estación",
+    "type": "inicio",
+    "longitude": -0.514526,
+    "latitude": 42.751457,
+    "routeKm": 0,
+    "elevationM": 1188,
+    "status": "exacto",
+    "description": "Punto inicial del track verificado.",
+    "source": "KML original aportado por el usuario"
+  },
+  {
+    "id": "cumbre-moleta",
+    "name": "Cumbre de La Moleta",
+    "type": "cumbre",
+    "longitude": -0.4876067,
+    "latitude": 42.7405292,
+    "routeKm": 7.47,
+    "elevationM": 2576,
+    "status": "exacto",
+    "description": "Cumbre principal. El máximo del track alcanza aproximadamente 2.580 m.",
+    "source": "Pico geocodificado y proximidad calculada contra el KML"
+  },
+  {
+    "id": "ibon-iserias",
+    "name": "Ibón de Iserías",
+    "type": "ibón",
+    "longitude": -0.4789242,
+    "latitude": 42.7443514,
+    "routeKm": 9.02,
+    "elevationM": 2157,
+    "status": "próximo",
+    "distanceToTrackM": 99,
+    "description": "Lago de montaña situado junto al recorrido. El track no atraviesa el centro del agua.",
+    "source": "Coordenada geográfica verificada y proximidad calculada contra el KML"
+  },
+  {
+    "id": "refugio-iserias",
+    "name": "Refugio Vuelta de Iserías",
+    "type": "refugio",
+    "longitude": -0.481149,
+    "latitude": 42.75388,
+    "routeKm": 10.53,
+    "elevationM": 1902,
+    "status": "próximo",
+    "distanceToTrackM": 11,
+    "description": "Punto de referencia próximo al track. No se afirma que esté abierto, guardado o abastecido.",
+    "source": "Coordenada geográfica verificada y proximidad calculada contra el KML"
+  },
+  {
+    "id": "coll-ladrones",
+    "name": "Fuerte de Coll de Ladrones",
+    "type": "patrimonio",
+    "longitude": -0.5100763,
+    "latitude": 42.7638663,
+    "routeKm": 15.73,
+    "elevationM": 1326,
+    "status": "desvío",
+    "distanceToTrackM": 136,
+    "description": "Punto patrimonial próximo al itinerario. Puede requerir un pequeño desvío.",
+    "source": "Coordenada geográfica verificada y proximidad calculada contra el KML"
+  },
+  {
+    "id": "final-canfranc",
+    "name": "Final — Canfranc Estación",
+    "type": "final",
+    "longitude": -0.514329,
+    "latitude": 42.753252,
+    "routeKm": 17.68,
+    "elevationM": 1206,
+    "status": "exacto",
+    "description": "Punto final del track circular.",
+    "source": "KML original aportado por el usuario"
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "route_name": "Pico de los Monjes desde Astún",
+  "source_file": "pico-monjes-astun.gpx",
+  "processed_at": "2026-07-14",
+  "track_points": 140,
+  "calculated_distance_km": 6.419,
+  "minimum_elevation_m": 1739,
+  "maximum_elevation_m": 2324.5,
+  "calculated_gain_smoothed_m": 582,
+  "calculated_loss_smoothed_m": 584,
+  "start_gap_to_declared_m": 1183,
+  "notes": [
+    "Desnivel calculado con elevación suavizada y umbral de 2 m.",
+    "La aplicación es complementaria y no sustituye navegación offline."
+  ]
+}

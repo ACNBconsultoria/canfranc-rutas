@@ -1,0 +1,16 @@
+{
+  "route_name": "Ibón de Iserías",
+  "source_file": "ibon-iserias.gpx",
+  "processed_at": "2026-07-13",
+  "track_points": 218,
+  "calculated_distance_km": 13.491,
+  "minimum_elevation_m": 1335,
+  "maximum_elevation_m": 2119.5,
+  "calculated_gain_smoothed_m": 793,
+  "calculated_loss_smoothed_m": 786,
+  "start_gap_to_declared_m": 0,
+  "notes": [
+    "Desnivel calculado con elevación suavizada y umbral de 2 m.",
+    "La aplicación es complementaria y no sustituye navegación offline."
+  ]
+}
