@@ -18,6 +18,7 @@ La aplicación se publica directamente desde la rama `main` mediante GitHub Page
 - Instalable en Android, iPhone y ordenadores compatibles.
 - El botón `GPS · Offline` permite guardar la aplicación y los 20 trazados en el dispositivo.
 - La navegación usa GPS de alta precisión, calcula la distancia al camino y avisa por vibración tras tres posiciones consecutivas fuera del trazado.
+- El mapa 3D muestra la posición real mediante un punto azul y un círculo que representa la precisión estimada del GPS, diferenciados del simulador de recorrido naranja.
 - Durante la navegación solicita mantener la pantalla encendida. El sistema puede rechazarlo por ahorro de batería o falta de compatibilidad.
 - Antes de una salida hay que preparar el contenido con conexión y comprobarlo en modo avión.
 - Los mapas base y el relieve 3D actuales proceden de servicios externos y no forman parte todavía del paquete offline. Los trazados, perfiles y estadísticas sí quedan guardados.

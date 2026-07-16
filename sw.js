@@ -1,4 +1,4 @@
-const VERSION = "canfranc-offline-v1";
+const VERSION = "canfranc-offline-v2";
 const CACHE = `${VERSION}-content`;
 const ROUTES = [
   "canal-roya-rinconada",

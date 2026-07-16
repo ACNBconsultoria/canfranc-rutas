@@ -54,3 +54,17 @@
 @media (display-mode: standalone) {
   .offline-nav-launcher { bottom: max(18px, env(safe-area-inset-bottom)); }
 }
+
+/* Posición real del senderista: azul para distinguirla del simulador naranja. */
+.maplibregl-user-location-dot {
+  width: 22px !important;
+  height: 22px !important;
+  background-color: #1687ff !important;
+  border: 4px solid #fff !important;
+  box-shadow: 0 0 0 2px #075fab, 0 4px 14px rgba(0, 0, 0, .55) !important;
+}
+
+.maplibregl-user-location-accuracy-circle {
+  background-color: rgba(22, 135, 255, .18) !important;
+  border: 2px solid rgba(22, 135, 255, .72) !important;
+}

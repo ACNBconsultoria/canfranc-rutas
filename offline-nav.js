@@ -301,6 +301,11 @@
     watchId = null;
     if (wakeLock && !wakeLock.released) await wakeLock.release().catch(() => {});
     wakeLock = null;
+    const geolocate = window.__CANFRANC_GEOLOCATE__;
+    if (geolocate && geolocate._watchState && geolocate._watchState !== "OFF") {
+      geolocate.trigger();
+      if (geolocate._watchState !== "OFF") geolocate.trigger();
+    }
     ui.start.hidden = false;
     ui.stop.hidden = true;
     ui.wake.textContent = "No";
