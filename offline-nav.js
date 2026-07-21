@@ -60,6 +60,8 @@
     window.addEventListener("online", updateConnection);
     window.addEventListener("offline", updateConnection);
     window.addEventListener("canfranc-route-ready", updateRouteState);
+    window.addEventListener("canfranc-navigation-request-start", startNavigation);
+    window.addEventListener("canfranc-navigation-request-stop", stopNavigation);
     document.addEventListener("visibilitychange", async () => {
       if (document.visibilityState === "visible" && navigationActive) await requestWakeLock();
     });
@@ -215,6 +217,7 @@
   }
 
   async function startNavigation() {
+    if (navigationActive) return;
     const route = window.__CANFRANC_ACTIVE_ROUTE__;
     if (!route) {
       setState("Primero entra en una ruta y abre su mapa 3D para cargar el camino.", "warn");
@@ -265,6 +268,21 @@
     ui.distance.textContent = formatDistance(nearest.distance);
     ui.accuracy.textContent = `± ${accuracy} m`;
     ui.remaining.textContent = formatDistance(Math.max(0, nearest.total - nearest.along));
+    window.dispatchEvent(new CustomEvent("canfranc-gps-position", {
+      detail: {
+        timestamp: position.timestamp,
+        latitude: position.coords.latitude,
+        longitude: position.coords.longitude,
+        altitude: position.coords.altitude,
+        accuracy: position.coords.accuracy,
+        altitudeAccuracy: position.coords.altitudeAccuracy,
+        heading: position.coords.heading,
+        speed: position.coords.speed,
+        distanceToRoute: nearest.distance,
+        routeAlong: nearest.along,
+        routeTotal: nearest.total
+      }
+    }));
 
     if (position.coords.accuracy > 80) {
       offRouteCount = 0;
@@ -296,6 +314,7 @@
   }
 
   async function stopNavigation() {
+    if (!navigationActive && watchId === null) return;
     navigationActive = false;
     if (watchId !== null) navigator.geolocation.clearWatch(watchId);
     watchId = null;
@@ -310,6 +329,7 @@
     ui.stop.hidden = true;
     ui.wake.textContent = "No";
     setState("Navegación detenida.", "warn");
+    window.dispatchEvent(new CustomEvent("canfranc-navigation-stopped"));
   }
 
   function nearestOnRoute(point, coordinates) {

@@ -1,4 +1,4 @@
-const VERSION = "canfranc-offline-v2";
+const VERSION = "canfranc-offline-v3";
 const CACHE = `${VERSION}-content`;
 const ROUTES = [
   "canal-roya-rinconada",
@@ -29,6 +29,10 @@ const SHELL = [
   "./manifest.webmanifest",
   "./offline-nav.css",
   "./offline-nav.js",
+  "./account-community.css",
+  "./account-community.js",
+  "./supabase-config.js",
+  "./vendor/supabase-2.110.6.js",
   "./assets/index-DcVUb1ur-github.js",
   "./assets/index-Bge4jphQ.css",
   "./assets/Map3D-WBWj1Iwt-navfix.js",

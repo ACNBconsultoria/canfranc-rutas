@@ -23,4 +23,11 @@ La aplicación se publica directamente desde la rama `main` mediante GitHub Page
 - Antes de una salida hay que preparar el contenido con conexión y comprobarlo en modo avión.
 - Los mapas base y el relieve 3D actuales proceden de servicios externos y no forman parte todavía del paquete offline. Los trazados, perfiles y estadísticas sí quedan guardados.
 
+## Cuenta e historial de actividades
+
+- El panel `Mi cuenta · Actividades` incorpora grabación GPS local mediante IndexedDB.
+- Una actividad conserva borrador, puntos GPS, tiempo, distancia, ritmo, desnivel y porcentaje estimado completado aunque se pierda la cobertura.
+- El esquema de `supabase/schema.sql` añade cuentas, perfiles, actividades, rutas completadas, publicaciones, imágenes, comentarios, likes, seguidores y denuncias con Row Level Security.
+- Hasta configurar `supabase-config.js`, las actividades permanecen solo en el dispositivo y no se habilitan cuentas ni sincronización comunitaria.
+
 La información de las rutas es orientativa y no sustituye cartografía oficial, partes meteorológicos, experiencia, material adecuado ni criterio sobre el terreno.
