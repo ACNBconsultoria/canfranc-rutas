@@ -46,6 +46,12 @@
     state.client.auth.onAuthStateChange((_event, session) => setSession(session));
   }
 
+  function authRedirectUrl() {
+    const configuredUrl = window.CANFRANC_SUPABASE_CONFIG?.siteUrl;
+    if (configuredUrl) return configuredUrl;
+    return `${window.location.origin}${window.location.pathname.replace(/[^/]*$/, "")}`;
+  }
+
   async function setSession(session) {
     state.session = session;
     state.profile = null;
@@ -156,6 +162,13 @@
             <div class="account-field"><label>Contraseña</label><input name="password" type="password" autocomplete="new-password" minlength="8" required></div>
             <button class="account-button" type="submit">Crear cuenta</button>
           </form>
+          <details>
+            <summary>No he podido confirmar mi correo</summary>
+            <form class="account-form" data-form="resend-signup">
+              <div class="account-field"><label>Correo electrónico</label><input name="email" type="email" autocomplete="email" required></div>
+              <button class="account-button secondary" type="submit">Reenviar confirmación</button>
+            </form>
+          </details>
         </div>
         ${localStatsHtml()}`;
       return;
@@ -325,10 +338,22 @@
         const { error } = await state.client.auth.signUp({
           email: values.email,
           password: values.password,
-          options: { data: { display_name: values.display_name } }
+          options: {
+            data: { display_name: values.display_name },
+            emailRedirectTo: authRedirectUrl()
+          }
         });
         if (error) throw error;
         showAlert("Cuenta creada. Revisa el correo si se solicita confirmación.", "ok");
+      }
+      if (form.dataset.form === "resend-signup") {
+        const { error } = await state.client.auth.resend({
+          type: "signup",
+          email: values.email,
+          options: { emailRedirectTo: authRedirectUrl() }
+        });
+        if (error) throw error;
+        showAlert("Confirmación reenviada. Utiliza solamente el correo más reciente.", "ok");
       }
       if (form.dataset.form === "profile") {
         const payload = {
